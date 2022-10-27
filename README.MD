@@ -1,25 +1,13 @@
+### HNG 9 BACKEND TASK 1
+
+[LIVE](https://www.google.com)
+
 #### Project Setup
 
-In order to spin up the project, in the root create .env with these two variables, with your own values.
+In order to spin up the project
 
-MONGO_URI
-JWT_SECRET
-
-After that run this command
+run this command
 
 ```bash
 npm install && npm start
-```
-
-Swagger UI
-
-```yaml
-/jobs/{id}:
-  parameters:
-    - in: path
-      name: id
-      schema:
-        type: string
-      required: true
-      description: the job id
 ```
